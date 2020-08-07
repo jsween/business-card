@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F27638CC24DDD34D0008EC04 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27638CB24DDD34D0008EC04 /* InfoView.swift */; };
 		F27FBB9E24DDC22200811EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FBB9D24DDC22200811EA5 /* AppDelegate.swift */; };
 		F27FBBA024DDC22200811EA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FBB9F24DDC22200811EA5 /* SceneDelegate.swift */; };
 		F27FBBA224DDC22200811EA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FBBA124DDC22200811EA5 /* ContentView.swift */; };
@@ -14,6 +15,8 @@
 		F27FBBA724DDC22300811EA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27FBBA624DDC22300811EA5 /* Preview Assets.xcassets */; };
 		F27FBBAA24DDC22300811EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27FBBA824DDC22300811EA5 /* LaunchScreen.storyboard */; };
 		F27FBBB524DDC22300811EA5 /* BusinessCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FBBB424DDC22300811EA5 /* BusinessCardUITests.swift */; };
+		F27FBBC024DDC48700811EA5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27FBBBF24DDC48700811EA5 /* Constants.swift */; };
+		F27FBBC324DDC67F00811EA5 /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F27FBBC224DDC67F00811EA5 /* PermanentMarker-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F27638CB24DDD34D0008EC04 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		F27FBB9A24DDC22200811EA5 /* BusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27FBB9D24DDC22200811EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F27FBB9F24DDC22200811EA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		F27FBBB024DDC22300811EA5 /* BusinessCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27FBBB424DDC22300811EA5 /* BusinessCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCardUITests.swift; sourceTree = "<group>"; };
 		F27FBBB624DDC22300811EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27FBBBF24DDC48700811EA5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F27FBBC224DDC67F00811EA5 /* PermanentMarker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PermanentMarker-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +85,16 @@
 		F27FBB9C24DDC22200811EA5 /* BusinessCard */ = {
 			isa = PBXGroup;
 			children = (
+				F27FBBC124DDC66A00811EA5 /* fonts */,
 				F27FBB9D24DDC22200811EA5 /* AppDelegate.swift */,
 				F27FBB9F24DDC22200811EA5 /* SceneDelegate.swift */,
 				F27FBBA124DDC22200811EA5 /* ContentView.swift */,
+				F27638CB24DDD34D0008EC04 /* InfoView.swift */,
 				F27FBBA324DDC22300811EA5 /* Assets.xcassets */,
 				F27FBBA824DDC22300811EA5 /* LaunchScreen.storyboard */,
 				F27FBBAB24DDC22300811EA5 /* Info.plist */,
 				F27FBBA524DDC22300811EA5 /* Preview Content */,
+				F27FBBBF24DDC48700811EA5 /* Constants.swift */,
 			);
 			path = BusinessCard;
 			sourceTree = "<group>";
@@ -105,6 +114,14 @@
 				F27FBBB624DDC22300811EA5 /* Info.plist */,
 			);
 			path = BusinessCardUITests;
+			sourceTree = "<group>";
+		};
+		F27FBBC124DDC66A00811EA5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F27FBBC224DDC67F00811EA5 /* PermanentMarker-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +207,7 @@
 			files = (
 				F27FBBAA24DDC22300811EA5 /* LaunchScreen.storyboard in Resources */,
 				F27FBBA724DDC22300811EA5 /* Preview Assets.xcassets in Resources */,
+				F27FBBC324DDC67F00811EA5 /* PermanentMarker-Regular.ttf in Resources */,
 				F27FBBA424DDC22300811EA5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +229,8 @@
 				F27FBB9E24DDC22200811EA5 /* AppDelegate.swift in Sources */,
 				F27FBBA024DDC22200811EA5 /* SceneDelegate.swift in Sources */,
 				F27FBBA224DDC22200811EA5 /* ContentView.swift in Sources */,
+				F27638CC24DDD34D0008EC04 /* InfoView.swift in Sources */,
+				F27FBBC024DDC48700811EA5 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
