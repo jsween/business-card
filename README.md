@@ -6,7 +6,7 @@
 
 Exploring SwiftUI with a simple business card.
 
-![](screensshot.png)
+![](screenshot.png)
 
 ## Features
 1. SwiftUI
